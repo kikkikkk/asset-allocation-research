@@ -1,0 +1,6 @@
+# Streamlit 界面配置（V2.1 本地开发分支）
+# 关闭 Streamlit 依据 pages/ 目录自动生成的英文页面导航
+# （app / common / page1 data …）。六个中文研究页面由 app.py 侧边栏 radio 控制。
+# 参考：streamlit/config.py -> client.showSidebarNavigation（1.66.1 官方选项）
+[client]
+showSidebarNavigation = false

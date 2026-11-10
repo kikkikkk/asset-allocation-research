@@ -1,0 +1,21 @@
+# 敏感与本机数据：绝不进入部署仓库
+.streamlit/secrets.toml
+*.env*
+*.token
+data_cache/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pkl
+*内部*
+*机密*
+
+# Python / 系统产物
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
